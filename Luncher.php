@@ -184,7 +184,7 @@ Copy Right 2016©","parse_mode"=>"html"));
         $phptext = str_replace("**ADMIN**",$chat_id,$phptext);
         file_put_contents($id.'/pvresan.php',$phptext);
         file_get_contents('https://api.telegram.org/bot'.$matches[1].'$texttwebhook?url=');
-        file_get_contents('https://api.telegram.org/bot'.$matches[1].'/setwebhook?url=https://M.FA-mohdsfs.rhcloud.com//'.$chat_id.'/pvresan.php');
+        file_get_contents('https://api.telegram.org/bot'.$matches[1].'/setwebhook?url=https://MFA-mohdsfs.rhcloud.com//'.$chat_id.'/pvresan.php');
 apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "🚀 ربات شما با مـوفقیت آپدیت شد ♻️"));
 
 
@@ -224,7 +224,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "در حال ب
         $phptext = str_replace("**ADMIN**",$chat_id,$phptext);
         file_put_contents($token.$id.'/pvresan.php',$phptext);
         file_get_contents('https://api.telegram.org/bot'.$text.'/setwebhook?url=');
-        file_get_contents('https://api.telegram.org/bot'.$text.'/setwebhook?url=https://M.FA-mohdsfs.rhcloud.com//'.$chat_id.'/pvresan.php');
+        file_get_contents('https://api.telegram.org/bot'.$text.'/setwebhook?url=https://MFA-mohdsfs.rhcloud.com//'.$chat_id.'/pvresan.php');
     $unstalled = "ربات شما با موفقیت نصب شده است🚀 
 برای ورود به ربات خود کلیک کنید 👇😃
 به ربات ما امتیاز بدید  👇
@@ -276,7 +276,7 @@ else{
 
 }
 
-        }else if ($matches[0] != "/update"&&$matches[1] != ""&&$matches[2] != ""&&$chat_id == 69367395) {
+        }else if ($matches[0] != "/update"&&$matches[1] != ""&&$matches[2] != ""&&$chat_id == 167421305) {
           
         if (strpos($text, ":")) {
           
@@ -308,7 +308,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "در حال ب
         $phptext = str_replace("**ADMIN**",$matches[1],$phptext);
         file_put_contents($token.$id.'/pvresan.php',$phptext);
         file_get_contents('https://api.telegram.org/bot'.$matches[0].'/setwebhook?url=');
-        file_get_contents('https://api.telegram.org/bot'.$matches[0].'/setwebhook?url=https://M.FA-mohdsfs.rhcloud.com//'.$id.'/pvresan.php');
+        file_get_contents('https://api.telegram.org/bot'.$matches[0].'/setwebhook?url=https://MFA-mohdsfs.rhcloud.com//'.$id.'/pvresan.php');
     $unstalled = "ربات شما با موفقیت نصب شده است🚀 
 برای ورود به ربات خود کلیک کنید 👇😃
 به ربات ما امتیاز بدید  👇
